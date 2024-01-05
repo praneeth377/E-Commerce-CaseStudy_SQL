@@ -13,6 +13,7 @@ The schema comprises 8 interconnected tables, establishing relationships through
 * Order_Header: Central to the schema, it records details of orders placed by customers and acts as a bridge between the Online_Customer and Product tables.
 * Shipper: Contains information about shipment IDs and details of the shippers responsible for delivering products to customers. This table is linked to the Order_Header table through the header_id foreign key.
 
+Check out the [ER-Diagram](https://github.com/praneeth377/E-Commerce-CaseStudy_SQL/blob/main/ER_Diagram.png)
 
 ## Analysis - Query Optimization and Performance Evaluation
 Throughout the analysis, I employed a series of strategic queries to extract valuable insights from the interconnected tables:
